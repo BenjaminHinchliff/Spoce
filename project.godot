@@ -9,25 +9,25 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "RigidBody2D",
+"base": "Reference",
 "class": "Bullet",
 "language": "GDScript",
-"path": "res://Bullet/Bullet.gd"
+"path": "res://scenes/Bullet/Bullet.gd"
 }, {
-"base": "Control",
+"base": "Reference",
 "class": "HUD",
 "language": "GDScript",
-"path": "res://HUD/HUD.gd"
+"path": "res://scenes/HUD/HUD.gd"
 }, {
 "base": "RigidBody2D",
 "class": "Ship",
 "language": "GDScript",
-"path": "res://Ship/Ship.gd"
+"path": "res://scenes/Ship/Ship.gd"
 }, {
-"base": "Sprite",
+"base": "Reference",
 "class": "Star",
 "language": "GDScript",
-"path": "res://Star/Star.gd"
+"path": "res://scenes/Star/Star.gd"
 } ]
 _global_script_class_icons={
 "Bullet": "",
@@ -39,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Spoce"
-run/main_scene="res://Title/Title.tscn"
+run/main_scene="res://scenes/Title/Title.tscn"
 config/icon="res://icon.png"
 
 [debug]
